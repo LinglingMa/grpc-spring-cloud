@@ -1,4 +1,0 @@
-# AutoConfiguration
-org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
-com.kwai.dp.autoconfigure.grpc.server.GrpcServerAutoConfiguration,\
-com.kwai.dp.autoconfigure.grpc.server.GrpcMetedataZookeeperConfiguration
