@@ -1,0 +1,51 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "net.devh.springboot.autoconfigure.grpc.server.GrpcServerProperties",
+      "name": "grpc.server",
+      "type": "net.devh.springboot.autoconfigure.grpc.server.GrpcServerProperties"
+    },
+    {
+      "sourceType": "net.devh.springboot.autoconfigure.grpc.server.GrpcServerProperties",
+      "name": "grpc.server.security",
+      "type": "net.devh.springboot.autoconfigure.grpc.server.GrpcServerProperties$Security"
+    }
+  ],
+  "properties": [
+    {
+      "sourceType": "net.devh.springboot.autoconfigure.grpc.server.GrpcServerProperties",
+      "defaultValue": "0.0.0.0",
+      "name": "grpc.server.address",
+      "description": "Bind address for the server. Defaults to {@code 0.0.0.0}.",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "net.devh.springboot.autoconfigure.grpc.server.GrpcServerProperties",
+      "defaultValue": true,
+      "name": "grpc.server.health-service-enabled",
+      "description": "Whether grpc health service is enabled or not. Defaults to {@code true}.",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "net.devh.springboot.autoconfigure.grpc.server.GrpcServerProperties",
+      "name": "grpc.server.max-inbound-message-size",
+      "description": "The maximum message size in bytes allowed to be received by the server. If not set ({@code null}) then it will default to {@link GrpcUtil#DEFAULT_MAX_MESSAGE_SIZE DEFAULT_MAX_MESSAGE_SIZE}. If set to {@code -1} then it will use {@link Integer#MAX_VALUE} as limit.",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "net.devh.springboot.autoconfigure.grpc.server.GrpcServerProperties",
+      "defaultValue": 9090,
+      "name": "grpc.server.port",
+      "description": "Server port to listen on. Defaults to {@code 9090}. If set to {@code 0} a random available port will be selected and used.",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "net.devh.springboot.autoconfigure.grpc.server.GrpcServerProperties",
+      "defaultValue": true,
+      "name": "grpc.server.reflection-service-enabled",
+      "description": "Whether proto reflection service is enabled or not. Defaults to {@code true}.",
+      "type": "java.lang.Boolean"
+    }
+  ]
+}
