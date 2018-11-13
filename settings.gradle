@@ -1,4 +1,4 @@
-rootProject.name = 'grpc-spring-boot-starter'
+rootProject.name = 'grpc-spring-cloud'
 
 include "grpc-client-spring-boot-autoconfigure"
 include "grpc-client-spring-boot-starter"
